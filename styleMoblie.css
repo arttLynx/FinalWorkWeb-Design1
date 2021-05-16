@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "Minecraft"; 
+    src: url("8303.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "Test"; 
+    src: url("19849.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+.intro {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    margin-left: 50%;
+}
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+
+}
+a {
+    font-family: 'Minecraft';
+}
+a:hover {
+    font-family: 'Test';
+}
+/*a:hover {
+    font-family: 'Test';
+}*/
+body {
+    background-image: url(bg.jpg);
+}
+nav {
+    margin: 100px 0;
+    background-color: #1e6f5c;
+}
+
+/* убираем отступы и поля, а также list-style для "ul", 
+ * и добавляем "position:relative" */
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+/* применяем inline-block позиционирование к элементам навигации */
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: #1e6f5c;
+    width: 70%;
+    }
+
+/* стилизуем ссылки */
+nav a {
+    display:block;
+    padding:0 10px;
+    width: 70%;
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+/* изменяем цвет фона при наведении курсора */
+nav a:hover {
+    background-color: #000000;
+}
