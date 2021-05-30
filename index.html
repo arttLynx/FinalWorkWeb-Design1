@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>САЙТ 5-А Класса школы  №8</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" id="switchStyle">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script.js"></script>
 </head>
@@ -14,7 +14,8 @@
     <script>
         AOS.init();
     </script>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="parallax.js"></script>
     <center>
         <nav>
             <ul>
@@ -26,8 +27,40 @@
             </ul>
         </nav>
         <div id="intro">
-            <h1>Мы -  5-А класс</h1>>
+            <h1>Мы -  5-А класс</h1>
+            <!--<div class="parallax-window" data-parallax="scroll" data-image-src="poster.jpg"></div>-->
         </div>
+        <section id="main">
+            <section id="row1" class="row">
+                <article>
+                    <h3>Армен Оганесян</h3>
+                    <img src="cls-20210529T185244Z-001\cls\20190902_110828.jpg" class="imgCls" alt="">
+                    <h4>Он ОДИН написал на<br><strong> 5</strong> ВПР по матеше</h4>
+                </article>
+
+                <article>
+                    <h3>Абгорян Милена</h3>
+                    <img src="cls-20210529T185244Z-001\cls\IMG-20200416-WA0008.jpg" class="imgCls" alt="">
+                    <h3><code><em>Unknown Error</em></code></h3>
+                </article>
+
+                <article>
+                    <h3>Лаврентьева Ксюша</h3>
+                    <img src="cls-20210529T185244Z-001\cls\IMG-20200520-WA0020.jpg" class="imgCls" alt="">
+                    <h4>Самая нормальная <br>девочка in our class</h4>
+                </article>
+
+                <article>
+                    <h3>Даня попов</h3>
+                    <img src="cls-20210529T185244Z-001\cls\popov.jpg" class="imgCls" alt="">
+                    <h4>Любитель поиграть в фортнуйт</h4>
+                </article>
+            </section>
+        </section>
+        <footer>
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/org/mbou_shkola_8/1129839589/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">МБОУ школа № 8</a><a href="https://yandex.ru/maps/10740/mytischi/category/school/184106240/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:14px;">Общеобразовательная школа в Мытищах</a><iframe src="https://yandex.ru/map-widget/v1/-/CKHWvQja" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+            <a href="#" class="myButton" id="switchBtn">DarkMode</a>
+        </footer>
     </center>
 </body>
 </html>
